@@ -116,7 +116,7 @@ const Hero: React.FC = () => {
         </HeadingContainer>
         <Subheadline>
           <BoldText>MAILEO Network</BoldText> is a web3 email communication infrastructure built to provide<br/>
-          encrypted emails within Aleo network.
+          encrypted emails service within Aleo network.
         </Subheadline>
         <ComingSoon>coming soon on Aleo.</ComingSoon>
         <EmailSignupForm onSubmit={handleSubmit}>
@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder={submitted ? "Form submitted successfully" : "Enter your email to stay updated"}
+            placeholder={submitted ? "Form submitted successfully" : "Enter your email..."}
             disabled={submitted}
           />
           <SubmitButton type="submit" disabled={submitted}>Submit</SubmitButton>
