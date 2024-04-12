@@ -40,7 +40,7 @@ const NavLink = styled.a`
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: black;
   text-transform: uppercase;
   padding-right: 2rem;
   animation: ${fadeIn} 0.5s ease-out;
