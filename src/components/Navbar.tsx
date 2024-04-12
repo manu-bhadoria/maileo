@@ -6,7 +6,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #FF1B68;
+  background-color: #FFE01B;
   margin-left: -1rem; 
 `;
 const LogoButton = styled.button`
