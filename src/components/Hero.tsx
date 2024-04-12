@@ -8,7 +8,7 @@ const HeroContainer = styled.div`
   height: 100vh;
   text-align: center;
   padding: 0rem;
-  background-color: #FF1B68;
+  background-color: #FFE01B;
 `;
 const HeadingContainer = styled.div`
   margin-bottom: 60px; 
